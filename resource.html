@@ -36,8 +36,9 @@
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header navbar-left">
-                <h1><a href="index.html"><font color="#BF2E23">Re</font><font color="#e8b149">LE<font
-                        color="#3C8386">R</font> </font><font color="#1B3040">@BJTU</font></a></h1>
+                <h1><a href="index.html"><img style="width: 20rem" src="images/logo.jpeg"/></a></h1>
+<!--                <h1><a href="index.html"><font color="#BF2E23">Re</font><font color="#e8b149">LE<font-->
+<!--                        color="#3C8386">R</font> </font><font color="#1B3040">@BJTU</font></a></h1>-->
             </div>
             <!--navigation-->
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -52,7 +53,7 @@
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-left cl-effect-14">
+                    <ul class="nav navbar-nav navbar-left">
                         <li><a href="index.html" class="scroll">Home</a></li>
                         <li><a href="publication.html" class="scroll">Publication</a></li>
                         <li><a href="people.html" class="scroll">People</a></li>
@@ -66,7 +67,6 @@
         </div>
     </nav>
 </div>
-<!--//header-->
 
 <!--team-->
 
@@ -152,6 +152,37 @@
         <script type="text/javascript" src="//rf.revolvermaps.com/0/0/4.js?i=2hlmeh3dic1&amp;m=0&amp;h=64&amp;c=ff0000&amp;r=0" async="async"></script>
         </div>
     </div>
+        <!--banner Slider starts Here-->
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function () {
+            // Slideshow 3
+            $("#slider3").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: false,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+
+        });
+    </script>
+    <!--//End-slider-script-->
+    <!-- start-smooth-scrolling-->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <!--//smooth-scrolling-of-move-up-->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
 </div>
 </body>
 </html>
