@@ -275,7 +275,8 @@ nav.navbar.navbar-default {
 /*--//header--*/
 /*--banner--*/
 .banner {
-    background: url(../images/banner.jpg)no-repeat center 0px;
+    /*background: url(../images/banner.jpg)no-repeat center 0px;*/
+    background: rgba(0,0,0, 0.3);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
     background-size: cover;
@@ -509,10 +510,10 @@ p {
 }
 /*--//about--*/
 /*--team--*/
-.team{
-    background: url(../images/slid.jpg)no-repeat center 0px fixed;
-    background-size: cover;
-}
+/*.team{*/
+/*    background: url(../images/slid.jpg)no-repeat center 0px fixed;*/
+/*    background-size: cover;*/
+/*}*/
 .team-info {
     background: rgba(0, 0, 0, 0.54);
 }
@@ -1687,6 +1688,17 @@ ul.tl li .timestamp {
 .publication strong{
     color: rgba(0,0,0, 0.55);
 }
+.background{
+    background: url(../images/banner.jpg)no-repeat center 0px fixed;
+    background-size: cover;
+}
+.header-contents{
+    /*background: url(../images/slid.jpg)no-repeat center 0px fixed;*/
+    background-color: #fff;
+    background-size: cover;
+}
 .contents{
-    margin-left: 3em;
+    /*background: url(../images/slid.jpg)no-repeat center 0px fixed;*/
+    background-color: rgba(255, 255, 255, 0.9);
+    background-size: cover;
 }
