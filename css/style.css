@@ -285,13 +285,18 @@ nav.navbar.navbar-default {
     margin-top: 0em;
 }
 .banner-text {
-    padding: 14em 0;
+    padding: 23em 0;
     text-align: center;
 }
 .banner-text h2,.banner-text h3{
     font-size: 3.6em;
     color: #fff;
 }
+
+.banner-text-info h2{
+    margin-left: 12em;
+}
+
 .banner-text h4 {
     color: #fff;
     margin: 1.5em 0;
@@ -485,16 +490,18 @@ h4.title {
     margin-bottom: 1em;
     margin-top: 1em;
     padding-bottom: 0.3em;
+    border-bottom: 5px solid #C00000;
+    display: inline-block;
 }
-h4.title:before {
-    content: '';
-    width: 200px;
-    height: 5px;
-    background: #C00000;
-    position: absolute;
-    bottom: 0;
-    display: block;
-}
+/*h4.title:before {*/
+/*    content: '';*/
+/*    width: 300px;*/
+/*    height: 5px;*/
+/*    background: #C00000;*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    display: block;*/
+/*}*/
 .about-text {
     text-align: justify;
 }
@@ -957,6 +964,9 @@ img.zoom-img:hover,.portfolio-grids:hover img.zoom-img{
 }
 .banner-text h2, .banner-text h3 {
     font-size: 3.2em;
+}
+.banner-text-info h2{
+    margin-left: 5em;
 }
 .about, .team-info, .services, .skills {
     padding: 5em 0;
