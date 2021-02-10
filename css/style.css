@@ -463,7 +463,7 @@ nav.navbar.navbar-default {
 .about,.team-info,.services,.skills{
 	padding:6em 0;
 }
-h3.title {
+/*h3.title {
     font-size: 2em;
     text-align: center;
     color: #ffcccc;
@@ -471,8 +471,21 @@ h3.title {
     position: relative;
     margin-bottom: 1em;
     padding-bottom: 0.3em;
+}*/
+
+h3.title {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-bottom: 0.3em;
+    border-bottom: 3px solid #C00000;
+    display: inline-block;
 }
-h3.title:before {
+
+/*h3.title:before {
     content: '';
     width: 80px;
     height: 5px;
@@ -481,7 +494,7 @@ h3.title:before {
     bottom: 0;
     left: 46%;
     display: block;
-}
+}*/
 h4.title {
     font-size: 2em;
     text-align: left;
