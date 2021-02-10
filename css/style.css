@@ -1711,4 +1711,5 @@ ul.tl li .timestamp {
     /*background: url(../images/slid.jpg)no-repeat center 0px fixed;*/
     background-color: rgba(255, 255, 255, 0.9);
     background-size: cover;
+    margin-left: 2em;
 }
