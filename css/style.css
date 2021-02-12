@@ -23,7 +23,7 @@ body a{
 	-o-transition: 0.5s all;
 	-ms-transition: 0.5s all;
 	text-decoration:none;
-    color:#C00000;
+    color:#7f0000;
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;	
@@ -76,13 +76,13 @@ body a:hover{
     font-weight: 400;
 }
 .navbar-nav li a.active{
-	color:#C00000!important;
+	color:#7f0000!important;
 }
 .navbar-nav li:hover a:before{
 	bottom: 0%;
 }
 .navbar-nav  li.active a, .navbar-nav  li.active1 a.dropdown-toggle,.navbar-nav li a:hover {
-    color: #C00000!important;
+    color: #7f0000!important;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     background: none;
@@ -477,7 +477,7 @@ h3.title:before {
     content: '';
     width: 80px;
     height: 5px;
-    background: #C00000;
+    background: #7f0000;
     position: absolute;
     bottom: 0;
     left: 46%;
@@ -491,7 +491,7 @@ h4.title {
     margin-bottom: 1em;
     margin-top: 1em;
     padding-bottom: 0.3em;
-    border-bottom: 3px solid #C00000;
+    border-bottom: 3px solid #7f0000;
     display: inline-block;
 }
 /*h4.title:before {*/
@@ -572,7 +572,7 @@ img.img-responsive {
 }
 /*--social-icons--*/
 .team .social-icons {
-    background: #C00000;
+    background: #7f0000;
     padding: 1.4em 0 0.8em;
 }
 .social-icons ul{
@@ -697,8 +697,8 @@ span.glyphicon {
 
 .resp-tab-active {
     text-shadow: none;
-    color: #C00000;
-    border-bottom-color: #C00000;
+    color: #7f0000;
+    border-bottom-color: #7f0000;
 }
 .resp-tabs-container {
 	padding: 0px;
@@ -850,16 +850,16 @@ img.zoom-img:hover,.portfolio-grids:hover img.zoom-img{
     font-size: 1.1em;
     margin: 1em 0 0 0;
     -webkit-appearance: none;
-    background: #C00000;
+    background: #7f0000;
     transition: 0.5s all;
-    border: 2px solid #C00000;
+    border: 2px solid #7f0000;
     -webkit-transition: 0.5s all;
     transition: 0.5s all;
     -moz-transition: 0.5s all;
 }
 .contact  input[type="submit"]:hover {
     background: none;
-    color: #C00000;
+    color: #7f0000;
 }
 
 ::-webkit-input-placeholder {
@@ -1654,13 +1654,13 @@ span.glyphicon {
     content: " ";
     border: 8px solid rgba(255, 255, 255, 0.74);
     border-radius: 500%;
-    background: #C00000;
+    background: #7f0000;
     height: 20px;
     width: 20px;
     transition: all 500ms ease-in-out;
 }
 .history-tl-container ul.tl li:hover::before{
-    border-color: #C00000;
+    border-color: #7f0000;
     transition: all 1000ms ease-in-out;
 }
 ul.tl li .item-title{
